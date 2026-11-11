@@ -73,7 +73,6 @@ cc main.c libftprintf.a -o test && ./test
 
 - `man 3 printf`, `man 3 stdarg`, `man 2 write`
 - The C standard library reference: https://en.cppreference.com/w/c/variadic
-- System V AMD64 ABI (how arguments are passed): https://gitlab.com/x86-psABIs/x86-64-ABI
 - GNU Make manual: https://www.gnu.org/software/make/manual/
 
 **Use of AI:** AI was used as a tutor to explain concepts how `va_list`/`va_arg` work at a low level, registers and the stack,
